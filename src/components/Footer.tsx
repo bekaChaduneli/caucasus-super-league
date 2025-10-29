@@ -17,7 +17,7 @@ export const Footer: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3"
-              aria-label={t("footer.visit")}
+              aria-label={toUpperCase(t("footer.visit"))}
             >
               <img
                 src={Profile}
@@ -36,12 +36,12 @@ export const Footer: React.FC = () => {
           </div>
 
           <p className="text-sm md:text-base text-muted-foreground md:max-w-[492px] lg:max-w-[812px] mx-auto md:mx-0 text-center md:text-left">
-            {t("footer.description")}
+            {toUpperCase(t("footer.description"))}
           </p>
         </div>
 
         <div className="mt-6 text-center md:text-right text-xs text-muted-foreground">
-          {t("footer.note")}
+          {toUpperCase(t("footer.note"))}
         </div>
       </div>
     </footer>

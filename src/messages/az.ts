@@ -4,105 +4,108 @@ export const az = {
       name: "Qafqaz Super Liqası",
     },
     hero: {
-      badge: "İnnovativ Çempionat Konsepti",
+      badge: "Çempionatın İnnovativ Konsepsiyası",
       caucasus: "Qafqaz",
       superLeague: "Super Liqası",
-      inovativeConception: "Futbol çempionatı üçün innovativ konsept",
+      inovativeConception: "Futbol Çempionatının İnnovativ Konsepsiyası",
       countries: "Gürcüstan • Azərbaycan • Ermənistan",
-      explore: "Liqa ilə tanış olun",
+      explore: "Liqa haqqında ətraflı",
     },
     stats: {
-      title: "Əsas statistika",
-      subtitle: "Komandalar, oyunlar və format üzrə qısa icmal",
+      title: "Əsas Göstəricilər",
+      subtitle: "Komandalar, matçlar və yarış formatı üzrə qısa icmal",
       teams: "Komandalar",
       teamsDesc: "Hər ölkədən 10 komanda: Gürcüstan, Azərbaycan, Ermənistan",
-      games: "Oyunlar",
-      gamesDesc: "Mövsümdə 18 regional + 20 beynəlxalq oyun",
-      conferences: "Konfranslar",
-      conferencesDesc: "Top 15 (Çempionat) və Bottom 15 (İnkişaf)",
+      games: "Matçlar",
+      gamesDesc: "Mövsümdə 18 regional + 20 beynəlxalq matç",
+      conferences: "Səviyyələr",
+      conferencesDesc:
+        "Top 15 (Çempionat Səviyyəsi) və Bottom 15 (İnkişaf Səviyyəsi)",
     },
     competition: {
-      title: "Yarış Strukturı",
+      title: "Yarış Strukturu",
       subtitle: "CSL-in regional və beynəlxalq mərhələləri necə işləyir",
       phaseI: "Mərhələ I",
       phaseII: "Mərhələ II",
       regionalTitle: "Regional Mərhələ",
-      regionalSubtitle: "Hər komanda üçün 18 oyun",
+      regionalSubtitle: "Hər komanda üçün 18 matç",
       internationalTitle: "Beynəlxalq Mərhələ",
-      internationalSubtitle: "Hər komanda üçün 20 oyun",
+      internationalSubtitle: "Hər komanda üçün 20 matç",
       regional: {
         feature1: {
-          title: "Milli liqalar",
+          title: "Milli Liqalar",
           description:
-            "Hər ölkədən 10 komanda iki dövrə oynayır (ev/qonaq): ümumilikdə 18 oyun.",
+            "Hər ölkədən 10 komanda iki dövrəli sistemlə oynayır (ev/səfər): ümumilikdə 18 matç.",
         },
         feature2: {
-          title: "UEFA kvalifikasiyası",
+          title: "UEFA Kvalifikasiyası",
           description:
-            "Regional mərhələnin sonunda milli çempionlar və kvalifikasiya yerləri müəyyənləşir.",
+            "Regional mərhələnin sonunda milli çempionlar və UEFA-ya vəsiqə yerləri müəyyənləşir.",
         },
         feature3: {
           title: "Bölünmə",
           description:
-            "Hər ölkənin cədvəli yuxarı 5 və aşağı 5 hissəyə bölünür.",
+            "Hər ölkənin liqa cədvəli yuxarı 5-lik və aşağı 5-lik hissələrə bölünür.",
         },
       },
       international: {
         feature1: {
-          title: "Çempionat səviyyəsi (Top 15)",
-          description: "Hər ölkənin top 5-i 15 komandalı çempionata birləşir.",
+          title: "Çempionat Səviyyəsi (Top 15)",
+          description:
+            "Hər ölkənin top 5 komandası birləşərək 15 komandalı çempionat səviyyəsini formalaşdırır.",
         },
         feature2: {
-          title: "İnkişaf səviyyəsi (Bottom 15)",
-          description: "Aşağı 5-lər 15 komandalı inkişaf liqasına birləşir.",
+          title: "İnkişaf Səviyyəsi (Bottom 15)",
+          description:
+            "Aşağı 5 komanda birləşərək 15 komandalı İnkişaf Səviyyəsini formalaşdırır.",
         },
         feature3: {
-          title: "Oyun qaydası",
+          title: "Matç Formatı",
           description:
-            "Hər komanda digər ölkələrin 10 təmsilçisi ilə 2 oyun (ev/qonaq) keçir: 20 oyun.",
+            "Hər komanda digər ölkələrin 10 təmsilçisi ilə 2 matç (ev/səfər) keçirir: cəmi 20 matç.",
         },
       },
     },
     tier: {
-      title: "CSL Struktur",
+      title: "CSL Formatı",
       subtitle:
-        "Çempionat və İnkişaf səviyyələrinin necə işlədiyini izah edir.",
+        "Çempionat və İnkişaf səviyyələrinin Qafqaz Super Liqasında necə tətbiq olunduğunu izah edir.",
       champ: {
         count: "15",
         title: "Çempionat Səviyyəsi",
-        subtitle: "Champions Path",
+        subtitle: "Çempionlar Yolu (Champions Path)",
         description:
-          "Regionun ən güclü komandaları burada mübarizə aparır. Məqsəd xal toplamaq, mükafatları artırmaq və Avropa kvalifikasiyasını yaxşılaşdırmaqdır.",
+          "Regionun ən güclü komandaları burada mübarizə aparır. Əsas məqsəd xal toplamaq, mükafat fondundakı payı artırmaq və Avropa kvalifikasiyasındakı mövqeləri yaxşılaşdırmaqdır.",
         reward1: {
           title: "CSL Çempionu",
-          desc: "Əlavə bonus (maliyyə + prestij).",
+          desc: "Əlavə mükafat (maliyyə + prestij).",
         },
         reward2: {
-          title: "UEFA üstünlükləri",
-          desc: "UEFA kvalifikasiyasında daha yaxşı başlanğıc mövqeləri.",
+          title: "UEFA Üstünlükləri",
+          desc: "UEFA kvalifikasiya mərhələlərində daha yaxşı başlanğıc mövqeləri.",
         },
-        modalTitle: "CSL Top 15: Avropa bonusu",
+        modalTitle: "CSL Top 15: Avropa Təşviqi",
         modalContent:
-          "<strong>UEFA qaydası:</strong> UEFA rəsmi olaraq yalnız milli çempionatları tanıyır. CSL nəticələri əlavə koeffisent və maliyyə stimulu kimi istifadə olunacaq. Məsələn, Top 15-də iştirak etmiş ən yaxşı milli çempion UEFA kvalifikasiyasında daha yaxşı başlanğıc mövqeyi əldə edə bilər (məsələn, 3-cü seçim mərhələsindən).",
-        cta: "Kvalifikasiya detallar",
+          "<strong>UEFA Tənzimləməsi:</strong> UEFA rəsmi olaraq yalnız milli çempionatları tanıyır. CSL nəticələri əlavə koeffisent və maliyyə stimulu kimi istifadə ediləcək. Məsələn, Top 15-də iştirak etmiş ən yaxşı milli çempion UEFA kvalifikasiyasında daha yaxşı başlanğıc mövqeyi əldə edə bilər (məsələn, 3-cü mərhələdən qoşulma).",
+        cta: "Kvalifikasiya detalları",
       },
       dev: {
         count: "15",
         title: "İnkişaf Səviyyəsi",
-        subtitle: "Development Path",
+        subtitle: "İnkişaf Yolu (Development Path)",
         description:
-          "Orta səviyyəli klubların gücləndirilməsi və gənc oyunçulara beynəlxalq təcrübə qazandırmaq üçün nəzərdə tutulub.",
+          "Orta səviyyəli klubların gücləndirilməsi və gənc oyunçulara beynəlxalq təcrübə qazandırmaq üçün nəzərdə tutulub. Əsas diqqət inkişafa və tanıtıma yönəlib.",
         reward1: {
           title: "Motivasiya",
-          desc: "Maliyyə bonusları və yeni imkanlar.",
+          desc: "Maliyyə mükafatları və yeni imkanlar.",
         },
         reward2: {
-          title: "CSL İnkişaf Çempionu",
-          desc: "Mükafat və Top 15-ə yüksəlmə şansı.",
+          title: "CSL İnkişaf Səviyyəsinin Qalibi",
+          desc: "Mükafat və Top 15 səviyyəsinə yüksəlmə şansı.",
         },
         modalTitle: "CSL Bottom 15: Təşviqlər",
         modalContent:
-          "<strong>Təşviq fondu:</strong> Bottom 15 komandaları üçün sponsorlar tərəfindən xüsusi mükafat fondu yaradılmalıdır ki, bu da motivasiyanı artıracaq. Həmçinin Gənc Oyunçular Liqası yaradılaraq əlavə oyun imkanları təmin edilə bilər.",
+          "<strong>Təşviq Fondu:</strong> Bottom 15 komandaları üçün sponsorlar tərəfindən xüsusi mükafat fondu yaradılacaq ki, bu da motivasiyanı artıracaq. Əlavə matç imkanları təmin etmək üçün Gənc Oyunçular Liqası nın yaradılması da mümkündür.",
         cta: "Təşviq təfərrüatları",
       },
     },
@@ -112,11 +115,11 @@ export const az = {
         stage: "Mərhələ",
         opponents: "Rəqiblər",
         matches: "Matçlar",
-        comment: "Şərh",
+        comment: "Əlavə məlumat",
       },
       rows: {
         regional: {
-          stage: "I. Regional",
+          stage: "I. Regional Mərhələ",
           opponents: "Eyni ölkədən 9 komanda",
           matches: 18,
           comment:
@@ -124,54 +127,55 @@ export const az = {
           highlight: false,
         },
         international: {
-          stage: "II. Beynəlxalq",
+          stage: "II. Beynəlxalq Mərhələ",
           opponents: "Digər ölkələrdən 10 komanda",
           matches: 20,
-          comment: "Beynəlxalq rəqabəti və koeffisentləri artırır.",
+          comment:
+            "Beynəlxalq rəqabətin və koeffisentlərin artmasına səbəb olur.",
           highlight: false,
         },
         total: {
-          stage: "Mövsüm cəmi",
+          stage: "Ümumi Matç Sayı",
           opponents: "—",
           matches: 38,
-          comment: "Tam mövsüm üçün ideal say.",
+          comment: "Tam və rəqabətli bir mövsüm üçün ideal matç sayı.",
           highlight: true,
         },
       },
     },
     benefits: {
-      title: "Əsas üstünlüklər",
+      title: "Əsas Faydalar",
       subtitle:
-        "CSL Qafqaz futbolunun inkişafını və Avropaya inteqrasiyanı təmin edir.",
+        "CSL Qafqaz futbolunun inkişafına və Avropaya inteqrasiyasına töhfə verir.",
       items: {
         experience: {
-          title: "Beynəlxalq təcrübə",
+          title: "Beynəlxalq Təcrübə",
           description:
-            "Hər bir komanda, o cümlədən orta səviyyəli, 20 beynəlxalq oyun keçirir və regional turnirlərdə iştirak edə bilər.",
+            "Hər bir komanda, o cümlədən orta səviyyəli klublar, 20 beynəlxalq matç keçirmək və regional turnirlərdə iştirak etmək imkanı əldə edir.",
         },
         finance: {
-          title: "Maliyyə sabitliyi",
+          title: "Maliyyə Sabitliyi",
           description:
-            "Sponsor və media marağının artması mükafat fondlarını və klub gəlirlərini artırır.",
+            "Sponsor və media marağının artması mükafat fondlarını və klubların gəlirlərini yüksəldəcək.",
         },
         uefa: {
-          title: "UEFA əmsalı",
+          title: "UEFA Əmsalı",
           description:
-            "Güclü komandaların daha çox beynəlxalq oyunu üç ölkənin ümumi UEFA əmsalını yüksəldəcək.",
+            "Güclü komandaların daha çox beynəlxalq matç keçirməsi, üç ölkənin ümumi UEFA əmsalını Avropa reytinqlərində artıracaq.",
         },
         talents: {
-          title: "İstedadların kəşfi",
+          title: "İstedadların Kəşfi",
           description:
-            "Daha çox beynəlxalq qarşılaşmalar skautların diqqətini çəkir və gənc oyunçuların inkişafına kömək edir.",
+            "Tez-tez keçirilən beynəlxalq qarşılaşmalar skautların diqqətini cəlb edir və gənc oyunçuların inkişafını sürətləndirir.",
         },
       },
     },
     footer: {
-      poweredBy: "hazırlayan",
-      visit: "Beka Chaduneli saytına daxil olun",
+      poweredBy: "Hazırlayıb:",
+      visit: "Beka Chadunelinin Veb Saytına Keçid",
       description:
-        "Caucasus Super League: Gürcüstan, Azərbaycan və Ermənistan klublarını birləşdirir. Müasir veb standartları ilə hazırlanıb.",
-      follow: "Takip et",
+        "Qafqaz Super Liqası: Gürcüstan, Azərbaycan və Ermənistan klublarını birləşdirir. Müasir veb standartlarına uyğun qurulub.",
+      follow: "Bizi İzləyin",
       note: "",
     },
   },

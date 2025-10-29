@@ -76,10 +76,10 @@ export const ScheduleTable: React.FC = () => {
                       )}
                     >
                       <td className="px-6 py-5 font-display font-bold text-foreground whitespace-nowrap">
-                        {t(`${key}.stage`)}
+                        {toUpperCase(t(`${key}.stage`))}
                       </td>
                       <td className="px-6 py-5 text-muted-foreground whitespace-nowrap">
-                        {t(`${key}.opponents`)}
+                        {toUpperCase(t(`${key}.opponents`))}
                       </td>
                       <td className="px-6 py-5 text-center">
                         <span
@@ -101,7 +101,7 @@ export const ScheduleTable: React.FC = () => {
                             : "text-muted-foreground"
                         )}
                       >
-                        {t(`${key}.comment`)}
+                        {toUpperCase(t(`${key}.comment`))}
                       </td>
                     </motion.tr>
                   );
@@ -129,7 +129,7 @@ export const ScheduleTable: React.FC = () => {
                 >
                   <div className="flex items-center justify-between mb-3">
                     <h3 className="font-display font-bold text-lg text-foreground">
-                      {t(`${key}.stage`)}
+                      {toUpperCase(t(`${key}.stage`))}
                     </h3>
                     <span
                       className={cn(
@@ -143,7 +143,7 @@ export const ScheduleTable: React.FC = () => {
                     </span>
                   </div>
                   <p className="text-sm text-muted-foreground mb-2">
-                    {t(`${key}.opponents`)}
+                    {toUpperCase(t(`${key}.opponents`))}
                   </p>
                   <p
                     className={cn(
@@ -153,7 +153,7 @@ export const ScheduleTable: React.FC = () => {
                         : "text-muted-foreground"
                     )}
                   >
-                    {t(`${key}.comment`)}
+                    {toUpperCase(t(`${key}.comment`))}
                   </p>
                 </motion.div>
               );

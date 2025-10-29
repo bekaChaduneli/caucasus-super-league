@@ -15,7 +15,7 @@ export const StatsOverview: React.FC = () => {
             {toUpperCase(t("stats.title"))}
           </h2>
           <p className="mt-2 text-sm sm:text-base text-muted-foreground max-w-xl mx-auto">
-            {t("stats.subtitle")}
+            {toUpperCase(t("stats.subtitle"))}
           </p>
         </div>
 
@@ -24,21 +24,21 @@ export const StatsOverview: React.FC = () => {
             icon={Users}
             value={30}
             label={toUpperCase(t("stats.teams"))}
-            description={t("stats.teamsDesc")}
+            description={toUpperCase(t("stats.teamsDesc"))}
             delay={0.05}
           />
           <CountUpStat
             icon={CalendarCheck}
             value={38}
             label={toUpperCase(t("stats.games"))}
-            description={t("stats.gamesDesc")}
+            description={toUpperCase(t("stats.gamesDesc"))}
             delay={0.12}
           />
           <CountUpStat
             icon={Layers}
             value={2}
             label={toUpperCase(t("stats.conferences"))}
-            description={t("stats.conferencesDesc")}
+            description={toUpperCase(t("stats.conferencesDesc"))}
             delay={0.18}
           />
         </div>

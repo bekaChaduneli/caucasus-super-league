@@ -100,7 +100,7 @@ export const TierComparison = ({ onOpenModal }: TierComparisonProps) => {
             {toUpperCase(t("tier.title"))}
           </h2>
           <p className="mt-3 text-sm md:text-base text-muted-foreground max-w-2xl mx-auto">
-            {t("tier.subtitle")}
+            {toUpperCase(t("tier.subtitle"))}
           </p>
           <div className="flex items-center justify-center gap-2 mt-6">
             <div className="h-1 w-16 bg-accent rounded-full" />
@@ -126,7 +126,7 @@ export const TierComparison = ({ onOpenModal }: TierComparisonProps) => {
                     icon={
                       <Trophy className="w-6 h-6 md:w-7 md:h-7 text-accent-foreground" />
                     }
-                    count={t("tier.champ.count")}
+                    count={toUpperCase(t("tier.champ.count"))}
                     tone="accent"
                     title={toUpperCase(t("tier.champ.title"))}
                     subtitle={toUpperCase(t("tier.champ.subtitle"))}
@@ -134,20 +134,20 @@ export const TierComparison = ({ onOpenModal }: TierComparisonProps) => {
                 </div>
 
                 <p className="text-[14px] md:text-[16px] text-muted-foreground leading-relaxed mb-6">
-                  {t("tier.champ.description")}
+                  {toUpperCase(t("tier.champ.description"))}
                 </p>
 
                 <div className="space-y-3 mb-6">
                   <RewardRow
                     icon={<Award className="w-5 h-5 text-accent" />}
-                    title={t("tier.champ.reward1.title")}
-                    desc={t("tier.champ.reward1.desc")}
+                    title={toUpperCase(t("tier.champ.reward1.title"))}
+                    desc={toUpperCase(t("tier.champ.reward1.desc"))}
                     tone="accent"
                   />
                   <RewardRow
                     icon={<Target className="w-5 h-5 text-accent" />}
-                    title={t("tier.champ.reward2.title")}
-                    desc={t("tier.champ.reward2.desc")}
+                    title={toUpperCase(t("tier.champ.reward2.title"))}
+                    desc={toUpperCase(t("tier.champ.reward2.desc"))}
                     tone="accent"
                   />
                 </div>
@@ -162,7 +162,7 @@ export const TierComparison = ({ onOpenModal }: TierComparisonProps) => {
                   variant="default"
                   className={cn("w-full md:w-auto text-sm md:text-base")}
                 >
-                  {t("tier.champ.cta")}
+                  {toUpperCase(t("tier.champ.cta"))}
                 </Button>
               </div>
             </div>
@@ -184,28 +184,28 @@ export const TierComparison = ({ onOpenModal }: TierComparisonProps) => {
                     icon={
                       <TrendingUp className="w-6 h-6 md:w-7 md:h-7 text-secondary-foreground" />
                     }
-                    count={t("tier.dev.count")}
+                    count={toUpperCase(t("tier.dev.count"))}
                     title={toUpperCase(t("tier.dev.title"))}
                     tone="secondary"
-                    subtitle={t("tier.dev.subtitle")}
+                    subtitle={toUpperCase(t("tier.dev.subtitle"))}
                   />
                 </div>
 
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  {t("tier.dev.description")}
+                  {toUpperCase(t("tier.dev.description"))}
                 </p>
 
                 <div className="space-y-3 mb-6">
                   <RewardRow
                     icon={<Award className="w-5 h-5 text-secondary" />}
-                    title={t("tier.dev.reward1.title")}
-                    desc={t("tier.dev.reward1.desc")}
+                    title={toUpperCase(t("tier.dev.reward1.title"))}
+                    desc={toUpperCase(t("tier.dev.reward1.desc"))}
                     tone="secondary"
                   />
                   <RewardRow
                     icon={<Target className="w-5 h-5 text-secondary" />}
-                    title={t("tier.dev.reward2.title")}
-                    desc={t("tier.dev.reward2.desc")}
+                    title={toUpperCase(t("tier.dev.reward2.title"))}
+                    desc={toUpperCase(t("tier.dev.reward2.desc"))}
                     tone="secondary"
                   />
                 </div>
@@ -219,7 +219,7 @@ export const TierComparison = ({ onOpenModal }: TierComparisonProps) => {
                   variant="secondary"
                   className={cn("w-full md:w-auto text-sm md:text-base")}
                 >
-                  {t("tier.dev.cta")}
+                  {toUpperCase(t("tier.dev.cta"))}
                 </Button>
               </div>
             </div>

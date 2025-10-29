@@ -43,7 +43,7 @@ export const BenefitsGrid = () => {
             {toUpperCase(t("benefits.title"))}
           </h2>
           <p className="mt-3 text-sm md:text-base text-muted-foreground max-w-2xl mx-auto">
-            {t("benefits.subtitle")}
+            {toUpperCase(t("benefits.subtitle"))}
           </p>
           <div className="flex items-center justify-center gap-2 mt-6">
             <div className="h-1 w-16 bg-accent rounded-full" />
@@ -80,10 +80,12 @@ export const BenefitsGrid = () => {
                     </div>
 
                     <h3 className="font-display text-2xl font-bold text-foreground mb-3">
-                      {t(`benefits.items.${benefit.key}.title`)}
+                      {toUpperCase(t(`benefits.items.${benefit.key}.title`))}
                     </h3>
                     <p className="text-muted-foreground leading-relaxed">
-                      {t(`benefits.items.${benefit.key}.description`)}
+                      {toUpperCase(
+                        t(`benefits.items.${benefit.key}.description`)
+                      )}
                     </p>
                   </div>
                 </div>

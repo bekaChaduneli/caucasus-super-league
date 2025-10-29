@@ -51,7 +51,7 @@ export const CountUpStat = ({
       transition={{ duration: 0.6, delay }}
       className="group"
     >
-      <div className="relative bg-card rounded-xl md:rounded-2xl p-6 md:p-8 shadow-soft hover:shadow-hard transition-all duration-500 border border-border/50 hover:border-accent/50 overflow-hidden">
+      <div className="relative h-full bg-card rounded-xl md:rounded-2xl p-6 md:p-8 shadow-soft hover:shadow-hard transition-all duration-500 border border-border/50 hover:border-accent/50 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-accent/5 to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
         <div className="relative">

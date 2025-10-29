@@ -73,7 +73,7 @@ export const CompetitionTabs: React.FC = () => {
             {toUpperCase(t("competition.title"))}
           </h2>
           <p className="mt-3 text-sm md:text-base text-muted-foreground max-w-2xl mx-auto">
-            {t("competition.subtitle")}
+            {toUpperCase(t("competition.subtitle"))}
           </p>
           <div className="flex items-center justify-center gap-2 mt-6">
             <div className="h-1 w-16 bg-accent rounded-full" />
@@ -120,7 +120,7 @@ export const CompetitionTabs: React.FC = () => {
                       {toUpperCase(t("competition.regionalTitle"))}
                     </h3>
                     <p className="text-sm md:text-lg text-muted-foreground font-semibold mt-1">
-                      {t("competition.regionalSubtitle")}
+                      {toUpperCase(t("competition.regionalSubtitle"))}
                     </p>
                   </div>
                 </div>
@@ -129,8 +129,8 @@ export const CompetitionTabs: React.FC = () => {
                   {regionalKeys.map((k, i) => (
                     <FeatureCard
                       key={k}
-                      title={t(`competition.${k}.title`)}
-                      desc={t(`competition.${k}.description`)}
+                      title={toUpperCase(t(`competition.${k}.title`))}
+                      desc={toUpperCase(t(`competition.${k}.description`))}
                       icon={<CheckCircle2 className="w-5 h-5 text-success" />}
                       delay={i * 0.06}
                       tone="success"
@@ -156,7 +156,7 @@ export const CompetitionTabs: React.FC = () => {
                       {toUpperCase(t("competition.internationalTitle"))}
                     </h3>
                     <p className="text-sm md:text-lg text-muted-foreground font-semibold mt-1">
-                      {t("competition.internationalSubtitle")}
+                      {toUpperCase(t("competition.internationalSubtitle"))}
                     </p>
                   </div>
                 </div>
@@ -165,8 +165,8 @@ export const CompetitionTabs: React.FC = () => {
                   {internationalKeys.map((k, i) => (
                     <FeatureCard
                       key={k}
-                      title={t(`competition.${k}.title`)}
-                      desc={t(`competition.${k}.description`)}
+                      title={toUpperCase(t(`competition.${k}.title`))}
+                      desc={toUpperCase(t(`competition.${k}.description`))}
                       icon={<CheckCircle2 className="w-5 h-5 text-primary" />}
                       delay={i * 0.06}
                       tone="primary"
@@ -195,7 +195,7 @@ export const CompetitionTabs: React.FC = () => {
                   {toUpperCase(t("competition.regionalTitle"))}
                 </h3>
                 <p className="text-sm text-muted-foreground font-semibold mt-1">
-                  {t("competition.regionalSubtitle")}
+                  {toUpperCase(t("competition.regionalSubtitle"))}
                 </p>
               </div>
             </div>
@@ -203,8 +203,8 @@ export const CompetitionTabs: React.FC = () => {
               {regionalKeys.map((k, i) => (
                 <FeatureCard
                   key={k}
-                  title={t(`competition.${k}.title`)}
-                  desc={t(`competition.${k}.description`)}
+                  title={toUpperCase(t(`competition.${k}.title`))}
+                  desc={toUpperCase(t(`competition.${k}.description`))}
                   icon={<CheckCircle2 className="w-5 h-5 text-success" />}
                   delay={i * 0.04}
                   tone="success"
@@ -229,7 +229,7 @@ export const CompetitionTabs: React.FC = () => {
                   {toUpperCase(t("competition.internationalTitle"))}
                 </h3>
                 <p className="text-sm text-muted-foreground font-semibold mt-1">
-                  {t("competition.internationalSubtitle")}
+                  {toUpperCase(t("competition.internationalSubtitle"))}
                 </p>
               </div>
             </div>
@@ -237,8 +237,8 @@ export const CompetitionTabs: React.FC = () => {
               {internationalKeys.map((k, i) => (
                 <FeatureCard
                   key={k}
-                  title={t(`competition.${k}.title`)}
-                  desc={t(`competition.${k}.description`)}
+                  title={toUpperCase(t(`competition.${k}.title`))}
+                  desc={toUpperCase(t(`competition.${k}.description`))}
                   icon={<CheckCircle2 className="w-5 h-5 text-primary" />}
                   delay={i * 0.04}
                   tone="primary"
