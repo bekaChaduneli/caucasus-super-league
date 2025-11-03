@@ -75,7 +75,7 @@ export const BenefitsGrid = () => {
                   <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
                   <div className="relative">
-                    <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-hero rounded-2xl flex items-center justify-center shadow-primary group-hover:shadow-accent transition-shadow duration-300 mb-4 md:mb-6">
+                    <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-hero rounded-2xl flex items-center justify-center duration-300 mb-4 md:mb-6">
                       <Icon className="w-6 h-6 md:w-8 md:h-8 text-white" />
                     </div>
 
