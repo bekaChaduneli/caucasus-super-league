@@ -10,15 +10,30 @@ export const Hero: React.FC = () => {
 
   const handleExploreClick = () => {
     const current = rootRef.current;
-    const next = current?.nextElementSibling as HTMLElement | null;
-    if (next) {
-      next.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (!current) return;
+
+    const next = current.nextElementSibling as HTMLElement | null;
+    const docHeight = document.documentElement.scrollHeight;
+    const viewportHeight = window.innerHeight;
+
+    if (next instanceof HTMLElement) {
+      const nextTop = next.getBoundingClientRect().top + window.scrollY;
+
+      const clampedTop = Math.max(
+        0,
+        Math.min(nextTop, docHeight - viewportHeight)
+      );
+
+      window.scrollTo({ top: clampedTop, behavior: "smooth" });
       return;
     }
-    window.scrollTo({
-      top: window.scrollY + window.innerHeight,
-      behavior: "smooth",
-    });
+
+    const fallbackTop = Math.max(
+      0,
+      Math.min(window.scrollY + viewportHeight, docHeight - viewportHeight)
+    );
+
+    window.scrollTo({ top: fallbackTop, behavior: "smooth" });
   };
 
   return (

@@ -54,6 +54,7 @@ export const LanguageChanger: React.FC<LanguageChangerProps> = ({
           {lanuageItems.map((langugeItem) => (
             <SelectItem
               value={langugeItem.langauge}
+              key={langugeItem.langauge}
               className="hover:bg-accent/10 group cursor-pointer rounded-lg py-1.5 transition-colors duration-200"
             >
               <div className="flex flex-col">
