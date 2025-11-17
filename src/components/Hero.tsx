@@ -76,9 +76,9 @@ export const Hero: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <motion.div
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            transition={{ duration: 1, delay: 0.35, type: "spring" }}
+            initial={{ scale: 0.4, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 1.1, delay: 0.35, type: "spring" }}
             className="inline-block mb-6"
           >
             <div className="px-5 py-2 bg-accent/20 backdrop-blur-sm border-2 border-accent rounded-full inline-flex items-center justify-center">

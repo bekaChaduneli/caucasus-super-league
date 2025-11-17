@@ -108,7 +108,7 @@ export const TierComparison = ({ onOpenModal }: TierComparisonProps) => {
           </div>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-6 md:gap-8">
+        <div className="grid lg:grid-cols-2 gap-6 md:gap-8 overflow-hidden md:overflow-visible">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -117,7 +117,7 @@ export const TierComparison = ({ onOpenModal }: TierComparisonProps) => {
             whileHover={{ y: -8 }}
             className="group"
           >
-            <div className="h-full bg-gradient-to-br from-card to-muted/30 rounded-3xl p-4 sm:p-8 md:p-10 shadow-medium hover:shadow-hard transition-all duration-500 border-2 border-transparent hover:border-accent/30 relative ">
+            <div className="h-full bg-gradient-to-br from-card to-muted/30 rounded-3xl p-4 sm:p-8 md:p-10 md:shadow-medium md:hover:shadow-hard transition-all duration-500 border-2 border-transparent hover:border-accent/30 relative ">
               <div className="absolute inset-0 bg-gradient-to-br from-accent/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
               <div className="relative">
@@ -176,7 +176,7 @@ export const TierComparison = ({ onOpenModal }: TierComparisonProps) => {
             whileHover={{ y: -8 }}
             className="group "
           >
-            <div className="h-full bg-gradient-to-br from-card to-muted/30 rounded-3xl p-4 sm:p-8 md:p-10 shadow-medium hover:shadow-hard transition-all duration-500 border-2 border-transparent hover:border-secondary/30 relative ">
+            <div className="h-full bg-gradient-to-br from-card to-muted/30 rounded-3xl p-4 sm:p-8 md:p-10 md:shadow-medium md:hover:shadow-hard transition-all duration-500 border-2 border-transparent hover:border-secondary/30 relative ">
               <div className="absolute inset-0 bg-gradient-to-br from-secondary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <div className="relative">
                 <div className="mb-6">
