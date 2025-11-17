@@ -1,4 +1,4 @@
-export const ar = {
+export const am = {
   translation: {
     header: {
       name: "Կովկասի Սուպերլիգա",

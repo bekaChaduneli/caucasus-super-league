@@ -1,4 +1,4 @@
-import { en, ka, az, ar } from "../messages";
+import { en, ka, az, am } from "../messages";
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
@@ -6,7 +6,7 @@ const resources = {
   en,
   ka,
   az,
-  ar,
+  am,
 };
 
 const defaultLanguage = localStorage.getItem("i18nextLng") || "en";
